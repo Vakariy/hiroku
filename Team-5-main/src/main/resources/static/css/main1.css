@@ -1,0 +1,107 @@
+
+.img{
+
+    margin: 0 auto;
+    display: flex;
+    min-width: 200px;
+    transition: 1s;
+}
+
+.img:hover {
+    transform: scale(1.8);
+    margin-top: 70px;
+    margin-left: 2em;
+}
+
+
+#service .service-tab ul {
+
+    margin-right: 50px;
+}
+
+.lox{
+    display: flex;
+}
+.edit-button-2 {
+
+    margin-left: 0px;
+    margin-top: 1em;
+    width: 6em;
+    margin: 0 auto;
+    font-size: 1em;
+
+}
+#submit-area {
+
+    margin-top: 0em;
+}
+.edit-tab-content {
+
+    width: 70%;
+    display: flex;
+    padding-top: 5em;
+}
+
+
+.tab-content>.active {
+    display: flex;
+    width: 100%;
+
+
+
+}
+
+
+.edit-tab p  {
+
+    margin: 0 auto;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+.edit-tab  span {
+
+
+    display: flex;
+    justify-content: center;
+}
+.img_act  {
+    width: 50%;
+
+
+}
+
+.info{
+    margin-left: 15%;
+
+}
+
+.info p{
+    justify-content: normal;
+
+}
+#service .service-tab ul li a{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.carting .btn{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.models , .memory{
+    display: flex;
+
+    justify-content: space-around;
+    width: 20%;
+    margin-top: 1em;
+}

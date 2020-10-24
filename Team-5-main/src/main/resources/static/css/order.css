@@ -1,0 +1,216 @@
+
+
+body{
+  font-size : 14px;
+  background-color: #f2f6f9;
+}
+.name{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-weight: bold;
+}
+.shop{
+  margin-top: 5em;
+  font-size: 3em;
+  font-weight: 700;
+}
+.form2{
+  display: grid;
+  margin-top: 2em;
+}
+.goods{
+  margin-top: 2em;
+}
+
+#Adress , #Number{
+  margin-bottom: 2em;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+
+.col-md-5.col-sm-12{
+  padding: 0;
+}
+
+.col-md-5.col-sm-12 h1{
+  color: #595c5f;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom:30px;
+  text-align: left;
+}
+
+.col-md-5.col-sm-12 p{
+  color: #898e92;
+  line-height: 1.5;
+  max-width: 400px;
+  text-align: justify;
+}
+
+.bigcart{
+  background: url("/static/img/sprite.png") no-repeat;
+  width: 400px;
+  height: 135px;
+  
+}
+
+.col-md-7.col-sm-12{
+  padding-left: 50px ;
+  margin-bottom: 72px;
+}
+
+.row{
+  box-shadow: 0 1px 0 #e1e5e8;
+  padding-bottom :0;
+  padding-left: 15px;
+
+  margin-bottom: 11px;
+}
+
+.row span{
+  padding: 20px 0 6px 0;
+}
+
+/* Column Captions */
+
+.columnCaptions{
+  color: #7e93a7;
+  font-size:12px;
+  text-transform: uppercase;
+  padding: 0;
+  box-shadow: 0 0 0;
+  background-color: #f2f6f9;
+}
+
+.columnCaptions span:first-child{
+  padding-right: 90px;
+}
+
+.columnCaptions span{
+  padding: 0 120px 0 0;
+}
+
+.columnCaptions span:last-child{
+  float: right;
+  padding-right: 40px;
+}
+
+.itemName{  
+  color: #727578;
+  font-size :16px;
+  font-weight: bold;
+  float: left;
+  padding-left:25px;
+}
+
+
+.quantity{  
+  color: #4ea6bc;
+  font-size :18px;
+  font-weight: bold;
+  float : left;
+  width: 42px;
+  padding-left: 7px;
+}
+
+
+.popbtn{
+  background-color: #e6edf3;
+  margin-left: 25px;
+  height: 63px;
+  width: 40px;
+  padding: 25px 0 0 14px !important;
+  float: right;
+  cursor: pointer;
+}
+
+
+
+.cent{
+  color: #f06953;
+  font-size :18px;
+  font-weight: bold;
+  float: right;
+  margin-right: 8em;
+}
+
+
+
+
+.totals{
+  background-color: #f2f6f9;
+}
+
+.totals span{
+  padding: 40px 15px 40px 0;
+}
+
+.totals .totalPrice{
+  float: left;
+  color: #f06953;
+  font-size :18px;
+  font-weight: bold;
+
+}
+
+.totals .itemName{
+  margin-top: 1px;
+}
+
+.totals .order{
+  float: right;
+  padding: 0;
+  color: #f06953;
+  margin-top: 40px;
+  font-size :18px;
+  font-weight: bold;
+  padding-left: 5px;
+
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+  .container.text-center{
+    padding: 0 15px;
+  }
+
+  .breadcrumb{
+    margin-bottom: 32px;
+  }
+
+  .bigcart{
+    margin: 0 auto 40px auto;
+  }
+
+  .col-md-5.col-sm-12 h1{
+    text-align: center;
+  }
+
+  .col-md-5.col-sm-12 p{
+    margin: 0 auto 64px auto;
+    text-align: justify;
+  }
+
+  .col-md-7.col-sm-12{
+    padding-left: 10px ;
+    padding-right: 50px;
+  }
+
+  .totals{
+    box-shadow: 0 0 0;
+  }
+
+}
+

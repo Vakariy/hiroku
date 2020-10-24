@@ -1,0 +1,72 @@
+body{
+    background:
+    linear-gradient(
+    rgba(35,43,85,0.75),
+    rgba(35,43,85,0.95)),
+    no-repeat;min-height: 100vh;
+width: 100%;
+padding: 0;
+margin:0;
+}
+#feedback-form { 
+   box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+  max-width: 550px;
+  padding: 2%;
+  border-radius: 3px;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+#feedback-form label { 
+  float: left;
+  display: block;
+  clear: right;
+}
+#feedback-form .w100 { 
+  float: right;
+  max-width: 400px;
+  width: 97%;
+  margin-bottom: 1em;
+  padding: 1.5%;
+  
+  
+}
+#feedback-form .border { 
+  border-radius: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+  box-shadow: 0 1px 1px rgba(255,255,255,.5), 0 1px 1px rgba(0,0,0,.1) inset;
+}
+#feedback-form .border:focus {
+  outline: none;
+  border-color: #abd9f1 #bfe3f7 #bfe3f7;
+}
+#feedback-form .border:hover {
+  border-color: #7eb4ea #97cdea #97cdea;
+
+}
+
+#feedback-form .border:not(:focus):not(:hover):valid { 
+  opacity: .8;
+}
+#submitFF,#mainFF {
+  width: 30%;
+  padding: 2%;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: #669acc;
+  color: #fff;
+}
+#feedback-form br {
+  height: 0;
+  clear: both;
+}
+#submitFF:hover {
+    background: #5c90c2;
+    cursor: pointer; 
+    background-color: #0F4FE6;
+    transition: background-color .5s; 
+}
+
